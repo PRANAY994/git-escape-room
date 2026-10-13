@@ -1,1 +1,1 @@
-Payment validation: basic
+Payment validation: critical fix
