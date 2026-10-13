@@ -1,1 +1,2 @@
 Payment validation: critical fix
+Tax calculation: corrected
