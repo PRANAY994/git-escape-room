@@ -1,1 +1,1 @@
-Checkout: stable
+Checkout: experimental UI
