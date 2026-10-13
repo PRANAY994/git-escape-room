@@ -1,1 +1,2 @@
 Checkout: stable
+Checkout banner: experimental
