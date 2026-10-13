@@ -1,1 +1,1 @@
-Payment validation: improved
+Payment validation: critical fix
