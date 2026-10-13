@@ -1,1 +1,3 @@
 Payment validation: improved
+Payment validation: add logging
+Tax calculation: corrected
