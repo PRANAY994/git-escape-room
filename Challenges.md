@@ -2,29 +2,48 @@
 
 Welcome to the Git Escape Room!
 
-In this interactive session, you'll explore Git by completing five hands-on challenges. Each challenge focuses on a practical Git concept.
+Complete these five hands-on challenges to practise Git commands used in real-world development. You have **30 minutes** to work through them.
 
-**Duration:** 30 minutes
+## Mission 1: Selective Staging
 
-## Challenges
+**Scenario:** The payment change is ready, but the checkout change isn't approved.
 
-### 1. Selective Staging
-Learn how to stage specific changes without including everything in your working directory.
+**Your task:** Stage only the changes in `payment.txt`. Leave `checkout.txt` unstaged and commit the staged change.
 
-### 2. Cherry-pick
-Learn how to bring a specific commit from another branch into your current branch.
+**Key concept:** `git add`, staging area, `git diff --cached`
 
-### 3. Merge Conflict
-Understand why merge conflicts happen and how to resolve them.
+## Mission 2: Cherry-pick
 
-### 4. Stash
-Learn how to temporarily save unfinished changes and return to them later.
+**Scenario:** A tax fix exists on another branch and needs to be included in `main`.
 
-### 5. Reflog Recovery
-Discover how Git's reflog can help you recover a commit that seems to be lost.
+**Your task:** Find the tax-fix commit and apply only that commit to `main`.
 
-## Let's Begin!
+**Key concept:** `git log`, `git show`, `git cherry-pick`
 
-Work through each challenge, explore the Git commands, and understand what happens at every step.
+## Mission 3: Merge Conflict
 
-The goal is not just to finish first—it's to learn how Git works in real-world development.
+**Scenario:** Two branches contain different timeout values.
+
+**Your task:** Merge the conflict branch into `main`, resolve the conflict, and complete the merge.
+
+**Key concept:** `git merge`, conflict markers, `git add`, `git commit`
+
+## Mission 4: Stash
+
+**Scenario:** An urgent task arrives while you have unfinished changes.
+
+**Your task:** Temporarily save your changes, switch branches, and restore your work when you return.
+
+**Key concept:** `git stash`, `git stash pop`
+
+## Mission 5: Reflog Recovery
+
+**Scenario:** A commit seems to have disappeared after its branch was deleted.
+
+**Your task:** Find the missing commit and recover it on a new branch.
+
+**Key concept:** `git reflog`, `git switch -c`
+
+## Finish
+
+Complete as many missions as you can in 30 minutes. Focus on understanding what each command does, not just memorising commands.
